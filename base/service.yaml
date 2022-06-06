@@ -6,7 +6,8 @@ metadata:
     app: argocd-demo-app  
 spec:
   selector:
-    app: argocd-demo-app
+    matchLabels:
+      app: argocd-demo-app
   ports:
   - port: 80
     targetPort: 80

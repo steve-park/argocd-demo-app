@@ -15,7 +15,7 @@ spec:
         app: argocd-demo-app
     spec:
       containers:
-      - image: nginx:latest
-        name: nginx
+      - name: nginx
+        image: nginxdemos/hello
         ports:
           - containerPort: 80

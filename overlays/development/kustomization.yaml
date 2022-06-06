@@ -6,8 +6,8 @@ bases:
   - ../../base
 
 commonLabels:
-  - environment: development
+  "environment": "development"
 
 patches:
   - replica.yaml
-  - resouce.yaml
+  - resource.yaml

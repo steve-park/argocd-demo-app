@@ -8,6 +8,8 @@ bases:
 commonLabels:
   "env": "development"
 
+namePrefix: "dev-"
+
 patches:
   - replica.yaml
   - resource.yaml

@@ -8,6 +8,8 @@ bases:
 commonLabels:
   "env": "production"
 
+namePrefix: "prod-"
+
 patches:
   - replica.yaml
   - resource.yaml

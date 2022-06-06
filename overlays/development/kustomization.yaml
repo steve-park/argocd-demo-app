@@ -6,7 +6,7 @@ bases:
   - ../../base
 
 commonLabels:
-  "environment": "development"
+  "env": "development"
 
 patches:
   - replica.yaml
